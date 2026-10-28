@@ -1,0 +1,12 @@
+.{
+    .name = .tummy,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.18.0-dev.738+ae9a8acc7",
+    .paths = .{""},
+    .fingerprint = 0x2f1465bdd3a71a52,
+    .dependencies = .{
+        .sqlite_amalgamation = .{
+            .path = "vendor/sqlite-amalgamation-3540100",
+        },
+    },
+}
